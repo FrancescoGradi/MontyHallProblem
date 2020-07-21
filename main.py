@@ -14,6 +14,7 @@ def montyHallProblem(numDoors=3, N=100000, doorChange=True):
     victories = 0
     for n in range(N):
 
+        # Mescoliamo gli oggetti dietro alle porte ad ogni gioco
         random.shuffle(problem)
 
         # Indice della porta scelta
