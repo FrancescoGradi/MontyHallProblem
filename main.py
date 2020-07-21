@@ -54,7 +54,7 @@ def montyHallProblem(numDoors=3, N=100000, doorChange=True):
 
 if __name__ == '__main__':
     door_change = False
-    N = 100000
+    N = 10000
     num_doors = 10
     montyHallProblem(num_doors, N, door_change)
 
